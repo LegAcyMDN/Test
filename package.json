@@ -1,0 +1,16 @@
+{
+  "name": "cogitia",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node ./src/cluster.js",
+    "start": "node ./src/cluster.js",
+    "register": "node ./src/register-commands.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
